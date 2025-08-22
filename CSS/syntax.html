@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Syntax Explanation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background: #f9f9f9;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #eee;
+            padding: 1em;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Syntax and Usage</h1>
+    <p>
+        <strong>CSS</strong> (Cascading Style Sheets) is used to style HTML elements. The basic syntax of CSS consists of a <em>selector</em> and a <em>declaration block</em>.
+    </p>
+    <h2>CSS Syntax</h2>
+    <pre>
+selector {
+    property: value;
+    property2: value2;
+}
+    </pre>
+    <ul>
+        <li><strong>Selector:</strong> Specifies which HTML elements to style (e.g., <code>p</code>, <code>.class</code>, <code>#id</code>).</li>
+        <li><strong>Property:</strong> The style attribute you want to change (e.g., <code>color</code>, <code>font-size</code>).</li>
+        <li><strong>Value:</strong> The value for the property (e.g., <code>red</code>, <code>16px</code>).</li>
+    </ul>
+    <h2>Example</h2>
+    <pre>
+p {
+    color: blue;
+    font-size: 18px;
+}
+    </pre>
+    <p>This example styles all <code>&lt;p&gt;</code> elements to have blue text and a font size of 18 pixels.</p>
+    <h2>How to Use CSS</h2>
+    <ol>
+        <li>
+            <strong>Inline CSS:</strong> Add the <code>style</code> attribute directly to an HTML element.<br>
+            <code>&lt;p style="color: red;"&gt;This is red text.&lt;/p&gt;</code>
+        </li>
+        <li>
+            <strong>Internal CSS:</strong> Place CSS rules inside a <code>&lt;style&gt;</code> tag in the HTML <code>&lt;head&gt;</code>.<br>
+            <pre>
+&lt;style&gt;
+    h1 { color: green; }
+&lt;/style&gt;
+            </pre>
+        </li>
+        <li>
+            <strong>External CSS:</strong> Write CSS in a separate <code>.css</code> file and link it with <code>&lt;link&gt;</code>.<br>
+            <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+        </li>
+    </ol>
+</body>
+</html>
