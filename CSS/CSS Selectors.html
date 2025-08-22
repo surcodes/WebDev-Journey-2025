@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Explained</title>
+    <style>
+        /* Simple Selectors */
+        h1 { color: blue; } /* Element selector */
+        #unique { color: green; } /* ID selector */
+        .highlight { background: yellow; } /* Class selector */
+
+        /* Universal Selector */
+        * { font-family: Arial, sans-serif; } /* Universal selector applies to all elements */
+
+        /* Grouping Selector */
+        h3, .grouped, #grouped-id { background: #f0f0f0; color: navy; } /* Grouping selector applies same style to multiple selectors */
+
+        /* Combinator Selectors */
+        div p { border: 1px solid red; } /* Descendant selector */
+        ul > li { font-weight: bold; } /* Child selector */
+        h2 + p { color: orange; } /* Adjacent sibling selector */
+        h2 ~ p { font-style: italic; } /* General sibling selector */
+
+        /* Pseudo-class Selectors */
+        a:hover { text-decoration: underline; } /* Hover state */
+        li:first-child { color: purple; } /* First child */
+        input:focus { background: #eee; } /* Focused input */
+
+        /* Pseudo-element Selectors */
+        p::first-line { font-size: 1.2em; } /* First line of paragraph */
+        p::before { content: "Note: "; color: red; } /* Before paragraph */
+
+        /* Attribute Selectors */
+        input[type="text"] { border: 2px solid blue; } /* Attribute value */
+        a[target] { color: teal; } /* Attribute present */
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors Explained</h1>
+
+    <h2>CSS id Selector</h2>
+    <p id="unique">
+        The <strong>id selector</strong> uses <code>#idname</code> to select a single, unique element.<br>
+        Example: <code>#unique { color: green; }</code>
+    </p>
+
+    <h2>CSS class Selector</h2>
+    <p class="highlight">
+        The <strong>class selector</strong> uses <code>.classname</code> to select all elements with that class.<br>
+        Example: <code>.highlight { background: yellow; }</code>
+    </p>
+
+    <h2>CSS Universal Selector</h2>
+    <p>
+        The <strong>universal selector</strong> uses <code>*</code> to select all elements on the page.<br>
+        Example: <code>* { font-family: Arial, sans-serif; }</code>
+    </p>
+
+    <h2>CSS Grouping Selector</h2>
+    <h3>Grouping Selector Example</h3>
+    <p class="grouped">This paragraph uses the <code>.grouped</code> class.</p>
+    <p id="grouped-id">This paragraph uses the <code>#grouped-id</code> id.</p>
+    <p>
+        The <strong>grouping selector</strong> lets you apply the same styles to multiple selectors by separating them with commas.<br>
+        Example: <code>h3, .grouped, #grouped-id { background: #f0f0f0; color: navy; }</code>
+    </p>
+
+    <h2>Combinator Selectors</h2>
+    <div>
+        <p>Descendant selector: <code>div p { ... }</code></p>
+    </div>
+    <ul>
+        <li>Child selector: <code>ul > li { ... }</code></li>
+        <li>Another item</li>
+    </ul>
+    <h2>Adjacent Sibling Selector</h2>
+    <p>This paragraph is styled by <code>h2 + p</code></p>
+    <p>General sibling selector: <code>h2 ~ p { ... }</code></p>
+
+    <h2>Pseudo-class Selectors</h2>
+    <a href="#">Hover over me</a>
+    <ul>
+        <li>First child: <code>li:first-child { ... }</code></li>
+        <li>Second child</li>
+    </ul>
+    <input type="text" placeholder="Focus me">
+    
+    <h2>Pseudo-element Selectors</h2>
+    <p>This paragraph uses <code>p::first-line</code> and <code>p::before</code>.</p>
+
+    <h2>Attribute Selectors</h2>
+    <input type="text" placeholder="Attribute selector">
+    <a href="#" target="_blank">Attribute present selector</a>
+</body>
+</html>
