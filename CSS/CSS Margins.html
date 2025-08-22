@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Margins Explained</title>
+    <style>
+        .margin-top {
+            margin-top: 40px;
+            background: #e3f2fd;
+            padding: 10px;
+        }
+        .margin-right {
+            margin-right: 40px;
+            background: #fce4ec;
+            padding: 10px;
+        }
+        .margin-bottom {
+            margin-bottom: 40px;
+            background: #e8f5e9;
+            padding: 10px;
+        }
+        .margin-left {
+            margin-left: 40px;
+            background: #fff3e0;
+            padding: 10px;
+        }
+        .margin-shorthand {
+            margin: 20px 40px 10px 60px;
+            background: #ede7f6;
+            padding: 10px;
+        }
+        .margin-auto {
+            margin: auto;
+            width: 200px;
+            background: #f3e5f5;
+            padding: 10px;
+        }
+        .margin-percent {
+            margin-left: 10%;
+            background: #e0f7fa;
+            padding: 10px;
+        }
+        .margin-negative {
+            margin-top: -20px;
+            background: #ffebee;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Margins</h1>
+    <p>
+        The CSS <code>margin</code> properties are used to create space around elements, outside of any defined borders.<br>
+        Margins define the distance between an element's border and the surrounding elements.
+    </p>
+
+    <h2>Margin - Individual Sides</h2>
+    <div class="margin-top">
+        <strong>margin-top</strong>: Sets the top margin of an element.<br>
+        <code>margin-top: 40px;</code>
+    </div>
+    <div class="margin-right">
+        <strong>margin-right</strong>: Sets the right margin of an element.<br>
+        <code>margin-right: 40px;</code>
+    </div>
+    <div class="margin-bottom">
+        <strong>margin-bottom</strong>: Sets the bottom margin of an element.<br>
+        <code>margin-bottom: 40px;</code>
+    </div>
+    <div class="margin-left">
+        <strong>margin-left</strong>: Sets the left margin of an element.<br>
+        <code>margin-left: 40px;</code>
+    </div>
+
+    <h2>Margin - Shorthand Property</h2>
+    <div class="margin-shorthand">
+        <strong>margin</strong>: Shorthand for setting all four margins in one declaration.<br>
+        <code>margin: 20px 40px 10px 60px;</code> (top right bottom left)
+    </div>
+
+    <h2>Margin Value Types</h2>
+    <div class="margin-auto">
+        <strong>auto</strong>: The browser calculates the margin.<br>
+        <code>margin: auto;</code>
+    </div>
+    <div class="margin-percent">
+        <strong>Percentage</strong>: Margin as a percentage of the containing element's width.<br>
+        <code>margin-left: 10%;</code>
+    </div>
+    <div class="margin-negative">
+        <strong>Negative Value</strong>: Negative margins pull the element closer.<br>
+        <code>margin-top: -20px;</code>
+    </div>
+</body>
+</html>
