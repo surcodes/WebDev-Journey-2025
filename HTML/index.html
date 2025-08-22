@@ -1,36 +1,74 @@
+What is HTML?
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+HTML elements are represented by tags
+HTML tags are keywords (tag names) surrounded by angle brackets: <tagname>
+HTML tags normally come in pairs: <tagname>content</tagname>
+The first tag in a pair is the opening tag, the second tag is the closing tag   
+The closing tag is written like the opening tag, but with a forward slash before the tag name
+Example: <p>This is a paragraph</p>
+The text between the opening and closing tags is the element's content
+The HTML element is everything from the start tag to the end tag: <p>This is a paragraph</p>
+
+HTML documents
+An HTML document is made up of different HTML elements
+An HTML element usually consists of a start tag and end tag, with the content in between
+Some HTML elements do not have an end tag (e.g., <img> and <br>)
+The HTML document has a nested structure, with elements inside other elements
+
+The HTML document starts with a <!DOCTYPE html> declaration
+The <!DOCTYPE html> declaration defines this document to be HTML5
+
+The HTML document is enclosed in <html> tags
+The <head> element contains meta information about the document
+
+The <title> element specifies a title for the document (shown in browser's title bar or tab)
+The <body> element contains the visible page content
+    
+Example of a simple HTML document:
 <!DOCTYPE html>
-<html lang="en">    
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>My First HTML Page</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Page</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is a brief introduction about myself.</p>
-        </section>
-        <section>
-            <h2>My Projects</h2>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Website</p>
-    </footer>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <a href="https://www.example.com">This is a link</a>
 </body>
-<script>
-    console.log("Page loaded successfully!");
-</script>
-</body> 
 </html>
+
+HTML Attributes
+HTML elements can have attributes
+Attributes provide additional information about an element
+Attributes are always included in the opening tag
+Attributes usually come in name/value pairs like: name="value"
+Example: <a href="https://www.example.com">This is a link</a>
+The href attribute specifies the URL of the page the link goes to
+Common HTML attributes include:
+id - specifies a unique id for an element
+class - specifies one or more class names for an element (used for CSS and JavaScript)
+style - specifies an inline CSS style for an element
+title - specifies extra information about an element (displayed as a tooltip)
+Global attributes can be used on any HTML element (e.g., id, class, style,
+title)
+
+HTML Comments
+Comments in HTML start with <!-- and end with -->
+Comments are not displayed in the browser
+Comments can be used to explain the code, which can help when you edit the source code later
+Example:
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments can also be used to hide code from the browser -->
+<!-- <p>This paragraph is hidden and will not be displayed in the browser.</p> -->
+<!-- Comments can help to organize your HTML code -->
+<!-- and make it more readable -->
+<!-- Always remember to close your comments properly -->
+
+
