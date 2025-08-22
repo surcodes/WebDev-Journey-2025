@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders Explained</title>
+    <style>
+        .border-dotted {
+            border: 3px dotted #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-dashed {
+            border: 3px dashed #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-solid {
+            border: 3px solid #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-double {
+            border: 6px double #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-groove {
+            border: 6px groove #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-ridge {
+            border: 6px ridge #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-inset {
+            border: 6px inset #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-outset {
+            border: 6px outset #333;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .border-none {
+            border: none;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .border-hidden {
+            border: hidden;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Borders</h1>
+    <p>The CSS <code>border-style</code> property specifies what kind of border to display. Here are all the types:</p>
+
+    <div class="border-dotted">
+        <strong>dotted</strong> - Defines a dotted border.<br>
+        <code>border-style: dotted;</code>
+    </div>
+    <div class="border-dashed">
+        <strong>dashed</strong> - Defines a dashed border.<br>
+        <code>border-style: dashed;</code>
+    </div>
+    <div class="border-solid">
+        <strong>solid</strong> - Defines a solid border.<br>
+        <code>border-style: solid;</code>
+    </div>
+    <div class="border-double">
+        <strong>double</strong> - Defines a double border.<br>
+        <code>border-style: double;</code>
+    </div>
+    <div class="border-groove">
+        <strong>groove</strong> - Defines a 3D grooved border. The effect depends on the border-color value.<br>
+        <code>border-style: groove;</code>
+    </div>
+    <div class="border-ridge">
+        <strong>ridge</strong> - Defines a 3D ridged border. The effect depends on the border-color value.<br>
+        <code>border-style: ridge;</code>
+    </div>
+    <div class="border-inset">
+        <strong>inset</strong> - Defines a 3D inset border. The effect depends on the border-color value.<br>
+        <code>border-style: inset;</code>
+    </div>
+    <div class="border-outset">
+        <strong>outset</strong> - Defines a 3D outset border. The effect depends on the border-color value.<br>
+        <code>border-style: outset;</code>
+    </div>
+    <div class="border-none">
+        <strong>none</strong> - No border is displayed.<br>
+        <code>border-style: none;</code>
+    </div>
+    <div class="border-hidden">
+        <strong>hidden</strong> - The border is hidden.<br>
+        <code>border-style: hidden;</code>
+    </div>
+
+    <h2>Border Sides and Radius</h2>
+    <div style="border: 2px solid #333; border-radius: 10px; padding:10px; margin:10px 0;">
+        <strong>Rounded Borders</strong> - Use <code>border-radius</code> for rounded corners.<br>
+        <code>border-radius: 10px;</code>
+    </div>
+    <div style="border-bottom: 4px solid red; padding:10px; margin:10px 0;">
+        <strong>Bottom Border</strong> - Use <code>border-bottom</code> for a border only on the bottom.<br>
+        <code>border-bottom: 4px solid red;</code>
+    </div>
+    <div style="border-left: 4px solid blue; padding:10px; margin:10px 0;">
+        <strong>Left Border</strong> - Use <code>border-left</code> for a border only on the left.<br>
+        <code>border-left: 4px solid blue;</code>
+    </div>
+</body>
+</html>
