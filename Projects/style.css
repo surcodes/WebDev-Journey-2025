@@ -1,8 +1,9 @@
 /* General Styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #ffffff;
+  font-family: 'Orbitron', Arial, sans-serif; /* futuristic font vibe */
+  background: #000000; /* full black */
+  color: #00ff7f; /* neon green text */
 }
 
 .container {
@@ -14,24 +15,26 @@ body {
 
 h1, h2, h3 {
   margin-top: 0;
-  color: #ff0015;
+  color: #ffffff; /* pure white for headings */
+  text-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f; /* neon glow */
 }
 
 header {
-  background: #1d3557;
-  color: #fff;
+  background: #0a0a0a; /* slightly lighter black */
   padding: 40px 0;
   text-align: center;
+  border-bottom: 2px solid #00ff7f;
 }
 
 header p {
   font-size: 1.2em;
-  margin-top: 10px;
+  color: #00ff7f;
+  text-shadow: 0 0 8px #00ff7f;
 }
 
 section {
   padding: 40px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #222;
   text-align: center;
 }
 
@@ -42,6 +45,8 @@ section {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  border: 3px solid #00ff7f;
+  box-shadow: 0 0 20px #00ff7f;
 }
 
 ul {
@@ -50,18 +55,20 @@ ul {
 }
 
 ul li {
-  background: #f1f1f1;
+  background: #111; /* dark background for list items */
   margin: 10px 0;
   padding: 10px;
-  border-left: 4px solid #e63946;
+  border-left: 4px solid #00ff7f;
+  color: #00ff7f;
+  text-shadow: 0 0 5px #00ff7f;
 }
 
 .project-card {
-  background: #fff;
+  background: #0a0a0a;
   margin: 10px auto;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 0 15px rgba(0, 255, 127, 0.6);
   max-width: 400px;
 }
 
@@ -77,27 +84,39 @@ input, textarea {
   margin: 8px 0;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #00ff7f;
+  background: #111;
+  color: #00ff7f;
+  text-shadow: 0 0 5px #00ff7f;
 }
 
 button {
   padding: 10px 30px;
   border: none;
   border-radius: 5px;
-  background: #1976d2;
-  color: #fff;
+  background: #00ff7f;
+  color: #000;
   font-size: 1em;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f;
+}
+
+button:hover {
+  background: #00cc66;
+  box-shadow: 0 0 20px #00ff7f, 0 0 40px #00ff7f;
 }
 
 footer {
-  background: #1d3557;
-  color: #fff;
+  background: #0a0a0a;
   text-align: center;
   padding: 15px 0;
   margin-top: 30px;
   font-size: 0.95em;
-  color: #555;
+  color: #00ff7f;
+  border-top: 2px solid #00ff7f;
+  text-shadow: 0 0 5px #00ff7f;
 }
 
 /* Responsive Styles */
