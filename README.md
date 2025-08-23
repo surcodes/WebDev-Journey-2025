@@ -11,9 +11,8 @@ Goal: Become a Full-Stack Developer by my birthday 🎉 (12th Nov).
 
 ## ✅ Weekly Logs
 ### Week 1 (Aug 22–28)
-- Learned HTML basics (tags, attributes, forms).
-- Built a simple portfolio skeleton.
-- Explored Git & GitHub workflow.
+- Learning HTML and CSS
+- Will make some projects
 
 ### Week 2 (Aug 29–Sep 4)
 - Coming soon....
