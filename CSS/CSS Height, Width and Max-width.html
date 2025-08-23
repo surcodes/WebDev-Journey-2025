@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Height, Width, and Max-width Explained</title>
+    <style>
+        .length-units {
+            height: 100px;
+            width: 300px;
+            background: #c8e6c9;
+            margin-bottom: 10px;
+        }
+        .percentage {
+            height: 50%;
+            width: 50%;
+            background: #bbdefb;
+            margin-bottom: 10px;
+        }
+        .inherit-parent {
+            height: 150px;
+            width: 400px;
+            background: #d1c4e9;
+            margin-bottom: 10px;
+        }
+        .inherit-child {
+            height: inherit;
+            width: inherit;
+            background: #b2dfdb;
+            margin-bottom: 10px;
+        }
+        .max-width {
+            width: 100%;
+            max-width: 500px;
+            background: #ffe0b2;
+            margin-bottom: 10px;
+        }
+        .auto {
+            width: auto;
+            height: auto;
+            background: #f8bbd0;
+            margin-bottom: 10px;
+        }
+        .initial {
+            width: initial;
+            height: initial;
+            background: #f5f5f5;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Height, Width, and Max-width</h1>
+    <p>
+        The <code>height</code> and <code>width</code> properties set the size of an element.<br>
+        The <code>max-width</code> property restricts the maximum width of an element.<br>
+        <br>
+        <strong>Value types:</strong><br>
+        <ul>
+            <li><strong>auto</strong> - Default. The browser calculates the height and width.</li>
+            <li><strong>length</strong> - Defines the height or width in px, cm, em, etc.</li>
+            <li><strong>%</strong> - Defines the height or width in percent of the containing block.</li>
+            <li><strong>initial</strong> - Sets the height or width to its default value.</li>
+            <li><strong>inherit</strong> - The height or width will be inherited from its parent value.</li>
+        </ul>
+    </p>
+
+    <div class="length-units">
+        <strong>Length Units</strong>: Height and width can use px, pt, cm, etc.<br>
+        <code>height: 100px; width: 300px;</code>
+    </div>
+    <div style="height: 200px; background: #e1bee7; margin-bottom: 10px;">
+        <div class="percentage" style="height: 50%; width: 50%;">
+            <strong>Percentage</strong>: Height and width as a percentage of the containing element's height and width.<br>
+            <code>height: 50%; width: 50%;</code>
+        </div>
+    </div>
+    <div class="inherit-parent">
+        <strong>Parent Element</strong>:<br>
+        <code>height: 150px; width: 400px;</code>
+        <div class="inherit-child">
+            <strong>inherit</strong>: Height and width are inherited from the parent element.<br>
+            <code>height: inherit; width: inherit;</code>
+        </div>
+    </div>
+    <div class="max-width">
+        <strong>max-width</strong>: Restricts the maximum width of an element.<br>
+        <code>width: 100%; max-width: 500px;</code>
+        <br>
+        Resize the browser window to see the effect.
+    </div>
+    <div class="auto">
+        <strong>auto</strong>: Browser calculates the height and width.<br>
+        <code>width: auto; height: auto;</code>
+    </div>
+    <div class="initial">
+        <strong>initial</strong>: Sets the height and width to their default values.<br>
+        <code>width: initial; height: initial;</code>
+    </div>
+
+    <h2>Note</h2>
+    <p>
+        When using percentage values for height, the parent element must have a defined height. Otherwise, the percentage height will not work as expected.<br>
+        <code>max-width</code> is useful for making layouts responsive, preventing elements from becoming too wide.
+    </p>
+</body>
+</html>
+
+
+
