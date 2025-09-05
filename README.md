@@ -14,5 +14,11 @@ Goal: Become a Full-Stack Developer by my birthday 🎉 (12th Nov).
 - Learning HTML and CSS
 - Made Personal Portfolio
 
-### Week 2 (Sept 01 - Sept 7)
-- 
+### Week 2 (Sept 01 - Sept 07)
+- Continued improving HTML & CSS skills
+- Completed **Google Homepage Clone**
+- Built a **Simple Blog Page**
+- Made a **Static Restaurant Website** using Bootstrap
+- Started working on **Cosmos Talks** (still in development)
+- Wrapped up **Web Dev Internship at KodBud** (first 4 projects came from here)
+- Realized I need to move beyond just CSS and focus on **JavaScript & problem-solving**
