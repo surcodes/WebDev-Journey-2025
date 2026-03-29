@@ -1,24 +1,42 @@
-# 🌐 Web Dev Journey 2025
+# 🌐 Web Dev Journey 2026
 
-This repo tracks my **100-day Web Development journey** (Aug → Nov 2025) 🚀  
-Goal: Become a Full-Stack Developer by my birthday 🎉 (12th Nov).
+Learning and building web development alongside my Semester VI (ends ~June/July).
+
+## 🎯 Goal
+
+* Build strong fundamentals in Web Development
+* Create real, working projects
+* Be comfortable with both frontend and backend basics
 
 ## 📅 Timeline
-- **Aug**: HTML, CSS, Git basics
-- **Sep**: JavaScript & DOM Projects
-- **Oct**: React + Backend Intro
-- **Nov**: Full-stack mini project
 
-## ✅ Weekly Logs
-### Week 1 (Aug 25 - Aug 31)
-- Learning HTML and CSS
-- Made Personal Portfolio
+**Start:** April 2026
+**End:** End of Semester (June/July 2026)
 
-### Week 2 (Sept 01 - Sept 07)
-- Continued improving HTML & CSS skills
-- Completed **Google Homepage Clone**
-- Built a **Simple Blog Page**
-- Made a **Static Restaurant Website** using Bootstrap
-- Started working on **Cosmos Talks** (still in development)
-- Wrapped up **Web Dev Internship at KodBud** (first 4 projects came from here)
-- Realized I need to move beyond just CSS and focus on **JavaScript & problem-solving**
+## 🛣️ Roadmap
+
+**Phase 1 (April)**
+HTML, CSS, Git, Responsive Design
+
+**Phase 2 (May)**
+JavaScript (Core + DOM), Mini Projects
+
+**Phase 3 (June – Semester End)**
+React (Basics) + Backend Intro (Node.js, Express)
+
+## ⚙️ Rules
+
+* 1–2 hours daily after college
+* Build alongside learning (no passive watching)
+* Focus on clarity over rushing topics
+* Improve and refine past projects
+
+## 📅 Weekly Logs
+
+### Week 1 (Apr XX – Apr XX)
+
+* Topics:
+* Projects:
+* Notes:
+
+---
