@@ -35,7 +35,7 @@ React (Basics) + Backend Intro (Node.js, Express)
 
 ### Week 1 (Apr XX – Apr XX)
 
-* Topics: Web Basics
+* Topics: Web Basics, Html & CSS done
 * Projects:
 * Notes:
 
